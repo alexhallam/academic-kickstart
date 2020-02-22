@@ -28,10 +28,10 @@ social:
 # - icon: envelope
 #   icon_pack: fas
 #   link: 'mailto:alexhallam6.28@gmail.com'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+- icon: twitter-square
   icon_pack: fab
   link: https://twitter.com/alexhallam6_28
-- icon: github
+- icon: github-square
   icon_pack: fab
   link: https://github.com/alexhallam
 # Link to a PDF of your resume/CV from the About widget.
