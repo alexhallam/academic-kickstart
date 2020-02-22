@@ -53,4 +53,7 @@ user_groups:
 - Visitors
 ---
 
-Welcome!
+Welcome! 
+
+My contributions to the open source world have been in the statistical computing domain. 
+
