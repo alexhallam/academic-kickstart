@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Alex Hallam
+name: Alex H.
 
 # Username (this should match the folder name)
 authors:
@@ -18,7 +18,7 @@ role: Tiny, Tidy, Minimal Code
 #   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My pontifications on code/software/statistics
+bio: My pontifications on code, software, and statistics
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
