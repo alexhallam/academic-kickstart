@@ -15,7 +15,7 @@ subtitle = ""
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 50
   
   # Choose how many pages you would like to offset by
   offset = 0
@@ -36,12 +36,12 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 1
   
 [design.background]
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Choose a light or dark text color by setting `text_color_dark`.
   #   Any HTML color name or Hex value is valid.
   
   # Background color.

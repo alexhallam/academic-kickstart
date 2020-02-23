@@ -9,6 +9,8 @@ The `bcp` utility is the fastest way to push large data sets to Azure SQLDW.
 The utility is very strict in how the data must look. If the data format
 does not match the bcp command from the user then the SQL push will fail.
 
+--------------------------------------------------------------------------------
+
 This is the bcp command I use.
 
 `bcp DB.TABLE in data/forecast_to_push.csv -q -t, -F 1 -d forecast-dw -c -S forecast-db.database.windows.net -e logs/bcp.log -U username -P password`
@@ -45,13 +47,15 @@ is an optional command which outputs an errfile to the specified path.
 Even with the correct bcp string the push to the database may still fail. In my
 experience this happens for one of two reasons:
 
-1. The data was not written in the way bcp expected it
+1. The data was not written in the way bcp expected it: It is essential to make sure the data is written correctly and
+   with the correct commands. write.table must be used. I have attempted using readr::write_csv() with no success. My
+   guess is that write.table encodes data in a different way than write_csv(). The following command has worked well for
+   me: `write.table(forecast_to_push, full_path, row.names=FALSE, col.names = FALSE, sep = ",", quote = FALSE, na ="")`
 
-It is essential to make sure the data is written correctly and with the correct commands. write.table must be used. I have attempted using readr::write_csv() with no success. My guess is that write.table encodes data in a different way than write_csv(). The following command has worked well for me: write.table(forecast_to_push, full_path, row.names=FALSE, col.names = FALSE, sep = ",", quote = FALSE, na = "")
-
-2. The datatypes in the source file do not match the data types in the destination table
-
-The datatypes in the destination table may be checked in MSSQL with the following query: select COLUMN_NAME, DATA_TYPE from information_schema.columns where table_name = 'TABLE' and table_schema = 'DB'. These datatype erros also occure when the dimensions of the columns of the source file does not match the dimensions of the destination table.
+2. The datatypes in the source file do not match the data types in the destination table: The datatypes in the
+   destination table may be checked in MSSQL with the following query: select COLUMN_NAME, DATA_TYPE from
+   information_schema.columns where table_name = 'TABLE' and table_schema = 'DB'. These datatype erros also occure when
+   the dimensions of the columns of the source file does not match the dimensions of the destination table.
 
 ## A Full Production Example
 
