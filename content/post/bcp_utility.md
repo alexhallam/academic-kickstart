@@ -1,5 +1,5 @@
 ---
-title: "Bcp Utility"
+title: "bcp Windows Utility"
 date: 2020-02-23T16:25:59-05:00
 draft: false
 ---
