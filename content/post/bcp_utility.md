@@ -1,3 +1,9 @@
+---
+title: "Bcp_utility"
+date: 2020-02-23T16:25:59-05:00
+draft: false
+---
+
 The `bcp` utility is the fastest way to push large data sets to Azure SQLDW.
 
 The utility is very strict in how the data must look. If the data format
