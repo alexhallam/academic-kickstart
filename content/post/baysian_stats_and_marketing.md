@@ -1,7 +1,7 @@
 ---
 title: "Baysian Statistics And Marketing"
 date: 2020-02-23T17:28:02-05:00
-draft: true
+draft: false
 ---
 
 `baysm` is the R package used as a companion to this book. I think that the 
