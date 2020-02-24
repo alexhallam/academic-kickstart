@@ -54,3 +54,10 @@ Welcome!
 
 My contributions to the open source world have been in the statistical computing domain. 
 
+Updates
+------
+
+Add this url to your RSS reader (newsboat):
+
+`https://suspicious-goodall-b046dd.netlify.com/post/index.xml`
+
