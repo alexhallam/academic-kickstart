@@ -4,7 +4,7 @@ date: 2020-02-24T20:23:52-05:00
 draft: false
 ---
 
-The suckless team has the [sent](tools.suckless.org/sent/) tools.
+The suckless team has the [sent](https://tools.suckless.org/sent/) tool.
 It is a plaintext presentation tool. 
 
 ### Getting started
