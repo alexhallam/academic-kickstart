@@ -52,7 +52,7 @@ user_groups:
 
 Welcome! 
 
-My contributions to the open source world have been in the statistical computing domain. 
+This is my informal personal blog. 
 
 Updates
 ------
