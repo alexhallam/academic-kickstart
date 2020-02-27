@@ -20,7 +20,7 @@ aesthetic and entertaining.
 
 ### Tough Matrix Calculus
 
-I know linear algebra, I know advanced calculus, but Matrix Calculus is
+I know linear algebra. I know advanced calculus, but Matrix Calculus is
 something I am not so great at. For this reason I had some difficulty following
 some of the derivations.
 

@@ -13,5 +13,3 @@ change in coefficients over time.
 I like how much time he spend on introducing hierarchical models. He also
 discuses alternative, less formal, approaches that he has seen in the wild. 
 
-I can't say enough good things about this book. 
-
